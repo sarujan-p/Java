@@ -10,7 +10,7 @@ public class Circle implements IShape{
 
     @Override
     public float calcArea(float lenght) {
-        return 2* pi* lenght; 
+        return pi * lenght * length; 
     }
     
 }
